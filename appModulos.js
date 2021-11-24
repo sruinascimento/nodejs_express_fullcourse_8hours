@@ -10,3 +10,11 @@ const {sayHi, devJR, secret} = require("./modulos");
 console.log(devJR);
 console.log(secret);
 console.log(sayHi("Jhon"));
+
+const {nome, age} = require("./alternativaExportacao");
+console.log(nome);
+console.log(age);
+console.log(module);
+
+//importando um script inteiro
+require("./scritptInteiro");
