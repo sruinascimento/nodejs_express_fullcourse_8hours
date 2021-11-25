@@ -12,7 +12,8 @@ const osModules = {
     totalMemory: os.totalmem(),
     freeMemory: os.freemem(),
     cpus: os.cpus()[0]
-}
+};
 
 
-console.log(osModules)
+console.log(osModules);
+console.log(os.platform());
